@@ -1,0 +1,12 @@
+<h1>Projects</h1>
+
+<ul>
+  <li>
+    <% @projects.each do |project| %>
+      <%= link_to project.name, project_url(project) %>
+    <% end %>
+  </li>
+</ul>
+
+<%= link_to "Home", root_url %>
+

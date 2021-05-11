@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+require "open-uri"
+
+project1 = Project.new(
+  name: "Project 1",
+  description: "project description 1"
+)
+
+project1.save!
