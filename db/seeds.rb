@@ -8,8 +8,8 @@
 require "open-uri"
 
 project1 = Project.new(
-  name: "Project 1",
-  description: "project description 1"
+  name: "O Lunch",
+  description: "The development of the application O Lunch was done as part of the final project during Le Wagon bootcamp"
 )
 
 project1.save!
